@@ -1,0 +1,38 @@
+.muebles .name{
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 250px;
+    padding-left: 100px;
+
+}
+.muebles .name span{
+    color: rgb(241, 72, 129);
+}
+.muebles .n2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 300px;
+}
+.muebles .n2 span{
+    color:  rgb(241, 72, 129);
+}
+.btn{
+   margin-left: 380px;
+   margin-top: -350px;
+   font-size: 1rem;
+   border: solid #c91c75;
+   color:black;
+   cursor: pointer;
+   background: none;
+    
+}
+.btn:hover{
+    background: #c91c75;;
+    color:#fff;
+}
+.image img{
+    padding-left: 900px;
+    margin-top: -280px;
+}

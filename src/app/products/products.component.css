@@ -1,0 +1,125 @@
+
+section{
+    padding:2rem 9%;
+}
+
+.ribbon {
+    font-size: 25px;
+
+   box-shadow: grey;
+    width: 50%;
+       
+    position: relative;
+    background: #FC6C85;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em;
+    margin: 2em auto 3em; 
+   }
+   .ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #FC6C85;
+    z-index: -1;
+   }
+   .ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+   }
+   .ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+   }
+   .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color:black;
+    bottom: -1em;
+   }
+   .ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+   }
+   .ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+   }
+
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.4rem 3rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border:.2rem solid #c91c75;;
+    color:black;
+    cursor: pointer;
+    background: none;
+}
+.btn:hover{
+    background: #c91c75;;
+    color:#fff;
+}
+.products {
+    padding-top: 90px;
+}
+    
+
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.8rem;
+    
+}
+
+.products .box-container .box{
+    padding:10px 20px;
+    background: #fff;
+    outline: 1rem solid rgba(247, 244, 244, 0.1);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: 0 .5rem 1.5rem rgba(247, 241, 241, 0.1);
+}
+
+.products .box-container .box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.products .box-container .box img{
+    margin:1rem 0;
+    height: 200px;
+}
+
+.products .box-container .box h3{
+    font-size: 35px;
+    line-height: 1.5rem;
+    color:black;
+}
+.products .box-container .box .price{
+    font-size: 1rem;
+    color:black;
+    padding:.5rem 0;
+    font-weight: bold;
+    
+}
+.products .box-container .box .stars i{
+    font-size: 1.7rem;
+    color:goldenrod;
+    padding:.5rem 0;
+}
+
+.products.box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding:1rem 0;
+}

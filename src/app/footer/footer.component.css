@@ -1,0 +1,130 @@
+.footer{
+    background: #fff;
+    padding-top: 20px;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    padding: 20px;
+   
+}
+
+.footer .box-container .box h3{
+    font-size:20px;
+    color:#0c0c0f;
+    padding:1rem;
+    margin-left: 10px;
+}
+.footer .box-container .box h3 img{
+    width:35px;
+    height:35px;
+    left: 10px;
+    top: 5124px;
+    
+    
+}
+.footer .box-container .box h3 i{
+    color:#FC6C85;
+}
+
+.footer .box-container .box1 .links{
+    display: block;
+    font-size: 1rem;
+    color:#000;
+    padding:1rem 0;
+    
+}
+.footer .box-container .box1 .links:hover{
+    display: block;
+    font-size: 1rem;
+    color:#FC6C85;
+    padding:1rem 0;
+}
+
+.footer .box-container .box1 .links i{
+    color:black;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box1 .links:hover i{
+    padding-right: 2rem;
+    color:black;
+}
+
+
+.footer .box-container .box3 p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+.box .share a{
+    height:2rem;
+    width:2rem;
+    line-height:2rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    color:#0c0c0f;
+    margin-right: 10px;
+    background: #eee;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .box-container .box .share a:hover{
+    background: #FC6C85;
+    color: #fff;
+}
+
+.footer .box-container .box3 .email{
+    width: 100%;
+    margin:10px 0;
+    height: 45px;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1rem;
+    color:#0c0c0f;
+    text-transform: none;
+    
+}
+
+.footer .box-container .box3 .payment-img{
+    margin-top: 2rem;
+    height: 3rem;
+    display: block;
+}
+
+.footer .credit{
+    text-align: center;
+    margin-top: 2rem;
+    padding:1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:#0c0c0f;
+    border-top: 2rem solid rgba(0,0,0,.1);
+}
+
+.footer .credit span{
+    color:#FC6C85;
+}
+.footer .box-container .box3 .btn{
+    border-radius: 10px;
+    font-size: large;
+    border-color: #000;
+}
+.footer .box-container .box3 .btn:hover{
+    background-color: #FC6C85;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

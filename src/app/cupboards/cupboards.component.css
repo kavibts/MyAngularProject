@@ -1,0 +1,116 @@
+
+.ribbon {
+    font-size: 25px;
+
+   box-shadow: grey;
+    width: 50%;
+       
+    position: relative;
+    background: #FC6C85;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em;
+    margin-left: 360px;
+    margin-top: 120px;
+   }
+   .ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #FC6C85;
+    z-index: -1;
+   }
+   .ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+   }
+   .ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+   }
+   .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color:black;
+    bottom: -1em;
+   }
+   .ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+   }
+   .ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+   }
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr ));
+    margin-left: 130px;
+    padding-top: 70px;
+}
+.products .card{
+    width: 310px;
+   
+    background: #c91c7500;
+    opacity: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.products .card img{
+    height: 250px;
+    width: 100%;
+  
+    
+}
+.products .card img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 2;
+}
+.products .card .desc{
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+.products .card  .price{
+    color:  #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-top: 20px;
+
+   
+}
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.products .card .box .btn{
+    font-size: 13px;
+    color: #000;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid #c91c75;
+    border-radius: 20px;
+
+   
+    
+}
+.products .card .box .btn:hover{
+    cursor: pointer;
+    background-color: #c91c75;
+    color: #fff;
+}
+.products .card .box .btn a{
+    color: #000;
+   
+}
